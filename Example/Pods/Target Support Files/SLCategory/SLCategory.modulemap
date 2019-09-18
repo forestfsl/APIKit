@@ -1,0 +1,6 @@
+framework module SLCategory {
+  umbrella header "SLCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module CTMediatoKit {
+  umbrella header "CTMediatoKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

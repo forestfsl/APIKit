@@ -1,0 +1,63 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - APIKit (0.1.0):
+    - CTMediatoKit (~> 0.0.4)
+    - IQKeyboardManager
+    - SLCategory (~> 0.0.1)
+    - SLWebEngine (~> 0.0.6)
+  - CTMediatoKit (0.0.4):
+    - CTMediator
+  - CTMediator (25)
+  - IQKeyboardManager (6.4.2)
+  - SLCategory (0.0.1)
+  - SLWebEngine (0.0.6):
+    - AFNetworking
+    - CTMediatoKit (~> 0.0.4)
+
+DEPENDENCIES:
+  - APIKit (from `../`)
+  - CTMediatoKit (~> 0.0.4)
+  - IQKeyboardManager
+  - SLCategory (~> 0.0.1)
+  - SLWebEngine (~> 0.0.6)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - CTMediator
+    - IQKeyboardManager
+  https://github.com/forestfsl/SegmentSpecs.git:
+    - CTMediatoKit
+    - SLCategory
+    - SLWebEngine
+
+EXTERNAL SOURCES:
+  APIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  APIKit: af17f31fd236b10dd80dde850570a7fb9d036bba
+  CTMediatoKit: 17040c73a3547835990c5cbdec7e2ee20f5ac3e6
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  IQKeyboardManager: b41e0a4943fbac4c11a239d31a688667675f962e
+  SLCategory: 54ff167d589de5a7c89dcf74225511c06b94d370
+  SLWebEngine: a3b6e24a5b0d63775fd9ef6ef9a1024ea321c97f
+
+PODFILE CHECKSUM: 802c9cd7bd7c86b7fa00733f4f6e1a8289f8d1ea
+
+COCOAPODS: 1.7.5

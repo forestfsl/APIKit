@@ -1,0 +1,6 @@
+framework module SLWebEngine {
+  umbrella header "SLWebEngine-umbrella.h"
+
+  export *
+  module * { export * }
+}
