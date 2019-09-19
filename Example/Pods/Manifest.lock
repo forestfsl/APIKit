@@ -14,15 +14,73 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - APIKit (0.1.0):
-    - CTMediatoKit (~> 0.0.4)
+  - APIKit (0.0.4):
+    - AppStoreKit
+    - CommonKit (~> 0.0.3)
+    - CTMediatoKit
     - IQKeyboardManager
-    - SLCategory (~> 0.0.1)
-    - SLWebEngine (~> 0.0.6)
+    - SegmentView
+    - SLCategory
+    - SLWebEngine
+  - AppStoreKit (0.0.1):
+    - CommonKit (~> 0.0.1)
+    - CTMediatoKit
+    - SLCategory
+    - SLWebEngine
+  - CommonKit (0.0.3):
+    - CommonKit/Macro (= 0.0.3)
+  - CommonKit/Macro (0.0.3)
   - CTMediatoKit (0.0.4):
     - CTMediator
   - CTMediator (25)
   - IQKeyboardManager (6.4.2)
+  - Masonry (1.1.0)
+  - SegmentView (0.0.4):
+    - CommonKit (~> 0.0.2)
+    - CTMediatoKit
+    - CTMediator
+    - Masonry
+    - SegmentView/Macro (= 0.0.4)
+    - SegmentView/Target (= 0.0.4)
+    - SegmentView/Tools (= 0.0.4)
+    - SegmentView/View (= 0.0.4)
+    - SegmentView/Widget (= 0.0.4)
+    - SLCategory
+  - SegmentView/Macro (0.0.4):
+    - CommonKit (~> 0.0.2)
+    - CTMediatoKit
+    - CTMediator
+    - Masonry
+    - SLCategory
+  - SegmentView/Target (0.0.4):
+    - CommonKit (~> 0.0.2)
+    - CTMediatoKit
+    - CTMediator
+    - Masonry
+    - SegmentView/View
+    - SLCategory
+  - SegmentView/Tools (0.0.4):
+    - CommonKit (~> 0.0.2)
+    - CTMediatoKit
+    - CTMediator
+    - Masonry
+    - SLCategory
+  - SegmentView/View (0.0.4):
+    - CommonKit (~> 0.0.2)
+    - CTMediatoKit
+    - CTMediator
+    - Masonry
+    - SegmentView/Macro
+    - SegmentView/Tools
+    - SegmentView/Widget
+    - SLCategory
+  - SegmentView/Widget (0.0.4):
+    - CommonKit (~> 0.0.2)
+    - CTMediatoKit
+    - CTMediator
+    - Masonry
+    - SegmentView/Macro
+    - SLCategory
   - SLCategory (0.0.1)
   - SLWebEngine (0.0.6):
     - AFNetworking
@@ -30,18 +88,22 @@ PODS:
 
 DEPENDENCIES:
   - APIKit (from `../`)
-  - CTMediatoKit (~> 0.0.4)
+  - CTMediatoKit
   - IQKeyboardManager
-  - SLCategory (~> 0.0.1)
-  - SLWebEngine (~> 0.0.6)
+  - SLCategory
+  - SLWebEngine
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - CTMediator
     - IQKeyboardManager
+    - Masonry
   https://github.com/forestfsl/SegmentSpecs.git:
+    - AppStoreKit
+    - CommonKit
     - CTMediatoKit
+    - SegmentView
     - SLCategory
     - SLWebEngine
 
@@ -51,13 +113,17 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  APIKit: af17f31fd236b10dd80dde850570a7fb9d036bba
+  APIKit: 2ef7aefb955e35776096ead627ab60503d60e63d
+  AppStoreKit: 88686bba56e2074bf5ae5d640b9d1168a28419e3
+  CommonKit: e80376fe19a4fd1db1d085aaed85342fda53d8c9
   CTMediatoKit: 17040c73a3547835990c5cbdec7e2ee20f5ac3e6
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
   IQKeyboardManager: b41e0a4943fbac4c11a239d31a688667675f962e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SegmentView: 2567a0cdf91dc7e923ee070a99b4cc24b8016497
   SLCategory: 54ff167d589de5a7c89dcf74225511c06b94d370
   SLWebEngine: a3b6e24a5b0d63775fd9ef6ef9a1024ea321c97f
 
-PODFILE CHECKSUM: 802c9cd7bd7c86b7fa00733f4f6e1a8289f8d1ea
+PODFILE CHECKSUM: 908eac76b5faa92588c79481f524f03af20c76c9
 
 COCOAPODS: 1.7.5

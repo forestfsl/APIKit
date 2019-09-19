@@ -1,6 +1,6 @@
 {
   "name": "APIKit",
-  "version": "0.1.0",
+  "version": "0.0.4",
   "summary": "A short description of APIKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/forestfsl/APIKit",
@@ -13,21 +13,30 @@
   },
   "source": {
     "git": "https://github.com/forestfsl/APIKit.git",
-    "tag": "0.1.0"
+    "tag": "0.0.4"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "APIKit/Classes/**/*",
   "dependencies": {
     "SLCategory": [
-      "~> 0.0.1"
+
     ],
     "SLWebEngine": [
-      "~> 0.0.6"
+
     ],
     "CTMediatoKit": [
-      "~> 0.0.4"
+
+    ],
+    "AppStoreKit": [
+
+    ],
+    "SegmentView": [
+
+    ],
+    "CommonKit": [
+      "~> 0.0.3"
     ],
     "IQKeyboardManager": [
 

@@ -44,7 +44,7 @@ TODO: Add long description of the pod here.
   s.dependency 'SLWebEngine'
   s.dependency 'CTMediatoKit'
   s.dependency 'AppStoreKit'
-  s.dependency 'SegmentView'
+  s.dependency 'SegmentView','~> 0.0.4'
   s.dependency 'CommonKit','~> 0.0.3'
   s.dependency 'IQKeyboardManager'
 end
