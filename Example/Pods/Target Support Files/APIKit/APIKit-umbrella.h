@@ -11,7 +11,7 @@
 #endif
 
 #import "StorySDK.h"
-#import "StorySDKAPI.h"
+#import "MagicWorldAPI.h"
 
 FOUNDATION_EXPORT double APIKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char APIKitVersionString[];

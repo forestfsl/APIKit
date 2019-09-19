@@ -4,7 +4,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface StorySDKAPI : NSObject
+@interface MagicWorldAPI : NSObject
 
 
 extern NSString *const kActivateForNotification;

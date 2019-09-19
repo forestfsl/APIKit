@@ -55,7 +55,7 @@
 		30E48BE40A992B74E4ED1CC22535ACFE /* IQPreviousNextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 614F0F4C41CF0A6ADBCDB7B726F687D4 /* IQPreviousNextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		316AE6CA376A42822E8FFBFF5FEB0F40 /* NSString+Segment.h in Headers */ = {isa = PBXBuildFile; fileRef = 42AF21E9EDB3CE4398FE7B82D98901D4 /* NSString+Segment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		327E6C2B7E1AFC1074BC28D60EBC8EA5 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4530A047ED97EF68F9336CB985B3581A /* MASConstraint.m */; };
-		33874ABA79911807228DE069B148730D /* StorySDKAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = C86EFD9E5042F4DF16DD9CAB5C582C2F /* StorySDKAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33874ABA79911807228DE069B148730D /* MagicWorldAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = C86EFD9E5042F4DF16DD9CAB5C582C2F /* MagicWorldAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3478406E81B4425656683202436E4A14 /* AppStoreKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF6864524A6052E79E33A58A095FAAFE /* AppStoreKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34A7C5747B4C0825465453E196E57FAA /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A79CEDFD77FCF4A06A00105E10508D /* UIButton+AFNetworking.m */; };
 		353E529BC04500DA0CA5CCAB93FBB8CE /* IQNSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F14B0B77C80BBDF9CF4A294AC94B573 /* IQNSArray+Sort.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -151,7 +151,7 @@
 		8628180E51E268A907E84768B9D91DBB /* CommonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5E3C8858B97847FC5111AFC6300805 /* CommonKit.framework */; };
 		870044029B3BA449A0932AAE3A495DE9 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D7AFB5C677D00A92B00295E0151C31E4 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89B71FD204041167EE3749F37EEF1CB1 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A5813C80F3044E739858EB45793AA1 /* MASConstraintMaker.m */; };
-		89DA79B23E0B3423B9A7B86F2A9A4CCA /* StorySDKAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = FF882A8D98F24DDB5990135312833804 /* StorySDKAPI.m */; };
+		89DA79B23E0B3423B9A7B86F2A9A4CCA /* MagicWorldAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = FF882A8D98F24DDB5990135312833804 /* MagicWorldAPI.m */; };
 		8B2F73E399064F1413B7765F5886D813 /* Target_CacheHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BECAFBD36DC1DBC43AAC26B35E5634F /* Target_CacheHandler.m */; };
 		8C0E8F93EC06EBB1BFF4E2C1EA2C0C50 /* CTMediator+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EB50487B2A42AF21EC35D9FA54F200 /* CTMediator+Config.m */; };
 		8E88D3EBDF7E892A75993A5B1B00BBFE /* APIProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 627CE886378059FA03BC4A2689D8BA13 /* APIProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -245,7 +245,7 @@
 		E261B82A0EEFE0EA897EA1A36C69C1CE /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 04423952C78573FB067EE1794E25FD13 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3956FE67ECE1F29993530E97F671C1C /* SegmentView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E8080F49D5CE241AA9819BAB75BC86 /* SegmentView.framework */; };
 		E6FCD58CD1C84C3081B46B20E51E883F /* APIAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 17EEB6E2067D60C4088409DA51C43A2A /* APIAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA6B4D60B903E8A9203D40B2B02A1795 /* StorySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D64A6F61CE3DC33BD4D0154E17289F2 /* StorySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA6B4D60B903E8A9203D40B2B02A1795 /* MagicWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D64A6F61CE3DC33BD4D0154E17289F2 /* MagicWorld.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA78EA722D7559337DF55EA168B07899 /* APIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18CE4F4838D26392F2CEC6EF6515769F /* APIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB6237DD6A66D4A82C609B8E77982042 /* CTMediatoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC01407A31E74DAF5D850A36B9836841 /* CTMediatoKit.framework */; };
 		EF7C3757D08847D5D3F9E4E341D8889F /* CTMediator+AppStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C30687EEF2FCC2616378B201688A05 /* CTMediator+AppStore.m */; };
@@ -493,7 +493,7 @@
 		0A37EE54FFD5D2982361C578D7A893A0 /* SystemDeviceSimulateIDFA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SystemDeviceSimulateIDFA.m; path = SLWebEngine/Classes/SystemDeviceSimulateIDFA.m; sourceTree = "<group>"; };
 		0B8D0FCDC412E9E84F387B2550355F5E /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManager.h; path = IQKeyboardManager/IQKeyboardManager.h; sourceTree = "<group>"; };
 		0D5FC00C1BE353E92CA2ACCE5A139BCA /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		0D64A6F61CE3DC33BD4D0154E17289F2 /* StorySDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StorySDK.h; path = APIKit/Classes/StorySDK.h; sourceTree = "<group>"; };
+		0D64A6F61CE3DC33BD4D0154E17289F2 /* MagicWorld.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicWorld.h; path = APIKit/Classes/MagicWorld.h; sourceTree = "<group>"; };
 		0D7EB581CA1CD160511EC28DD15457FA /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		0F0B2975AF3741A2FA13854566A92F8E /* UITextField+Segment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+Segment.h"; path = "SLCategory/Classes/UITextField+Segment.h"; sourceTree = "<group>"; };
 		11C26E22F7C47092E913C55BF2B9F9A5 /* Target_PurchaseManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_PurchaseManager.m; path = AppStoreKit/Classes/Target_PurchaseManager.m; sourceTree = "<group>"; };
@@ -503,7 +503,7 @@
 		128B78389D7AC6A5CE41C80B35042BBF /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
 		12906444E8AF1D7B3DB68F8B4C6B75E6 /* UILabel+Segment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Segment.m"; path = "SLCategory/Classes/UILabel+Segment.m"; sourceTree = "<group>"; };
 		1322ED35754ED30A964BF2DA60611A5C /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		1478545B8A2813610080BF5DA8E4103B /* APIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = APIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1478545B8A2813610080BF5DA8E4103B /* APIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = APIKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		14830309C9A16DE8BE1A4E72D5C28FCE /* CategoryMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CategoryMacro.h; path = SLCategory/Classes/CategoryMacro.h; sourceTree = "<group>"; };
 		14C336A857C5E7F3F994917807B85238 /* IQKeyboardManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManager.modulemap; sourceTree = "<group>"; };
 		14D802FF0CE0F3C8086E20519DC6FC1F /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
@@ -521,7 +521,7 @@
 		1FBCEE53D9D1F04707F3AA2CE4DC4C2E /* SLWebEngine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SLWebEngine.modulemap; sourceTree = "<group>"; };
 		1FC033D1A86036E58E7798A44BE4F3F6 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		1FCFDC58A789E13AAE6FB580B94A871D /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
-		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2035CB63C1513BB3889DB115F3F197B9 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		2355096816CAA11C24A83BDC3BF5A930 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		23CDC1D08DED795C53F1F4D90BD6BFAC /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
@@ -530,7 +530,7 @@
 		25B94E1693110D47C82778E4E7F1F25F /* CTMediaAFNetworkReachbilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediaAFNetworkReachbilityManager.h; path = CTMediatoKit/Classes/CTMediaAFNetworkReachbilityManager.h; sourceTree = "<group>"; };
 		28471C5EF42CC7276EB46F2A54D809FB /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
 		2864EE386A1642EFD74B86862A079CDC /* SegmentAnimationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SegmentAnimationManager.m; path = SegmentView/Widget/SegmentAnimationManager.m; sourceTree = "<group>"; };
-		28AEC040785FBCD77E5C90EB1389ABD3 /* APIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = APIKit.framework; path = APIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28AEC040785FBCD77E5C90EB1389ABD3 /* APIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2950D8E02EDC540931C1376AE4664DD7 /* AppStoreKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AppStoreKit-Info.plist"; sourceTree = "<group>"; };
 		299D1F01961C094170672A491F99F89D /* CTMediator+SegmentViewHud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+SegmentViewHud.m"; path = "CTMediatoKit/Classes/CTMediator+SegmentViewHud.m"; sourceTree = "<group>"; };
 		2A614F729A21FFE591B8A549168B6AAA /* CommonKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonKit-prefix.pch"; sourceTree = "<group>"; };
@@ -599,8 +599,8 @@
 		62DC334B4A967F721FE6D31ED4AE4C6A /* SegmentForgetPasswordView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SegmentForgetPasswordView.h; path = SegmentView/View/SegmentForgetPasswordView.h; sourceTree = "<group>"; };
 		63F69B4D8396ED3908C2702B37E049D5 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		65599367BDB6DA97DEA1F8D3E28E3AD3 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		668848BBDE132F00FC8E7608057F5341 /* CTMediatoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediatoKit.framework; path = CTMediatoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		668848BBDE132F00FC8E7608057F5341 /* CTMediatoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediatoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6941B6E5B60C2F8DA77AAC59B48F28D3 /* CategoryHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CategoryHeader.h; path = SLCategory/Classes/CategoryHeader.h; sourceTree = "<group>"; };
 		6A5EC577CCA851E2651A05625DC32AC7 /* SegmentMainView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SegmentMainView.h; path = SegmentView/View/SegmentMainView.h; sourceTree = "<group>"; };
 		6C16337CF5AB3BCE949BE532E11743F3 /* SystemDeviceSimulateIDFA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SystemDeviceSimulateIDFA.h; path = SLWebEngine/Classes/SystemDeviceSimulateIDFA.h; sourceTree = "<group>"; };
@@ -642,7 +642,7 @@
 		82A045CECDAE2C9A9E398C1C022BEC46 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
 		82DD4EA84816AAFEEEA965E6780D05B4 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
 		89D5F5C793197E03305688353459F36F /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
-		8AE45FFF07C14C786468DA336258D0D2 /* SegmentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SegmentView.framework; path = SegmentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE45FFF07C14C786468DA336258D0D2 /* SegmentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SegmentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BEF645AFB1FD6EDA5AB6A49B5BE6AA2 /* UIImageView+Segment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+Segment.h"; path = "SLCategory/Classes/UIImageView+Segment.h"; sourceTree = "<group>"; };
 		8C6C472C186664787091827E862DB6A7 /* APIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APIKit-prefix.pch"; sourceTree = "<group>"; };
 		8C9171503ED0CF08A548FEA018187EDA /* SLCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SLCategory-dummy.m"; sourceTree = "<group>"; };
@@ -653,24 +653,24 @@
 		915DBFD09F5DEA5764701D992E3FC7AD /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		935CA5FA1B74A908315D9608807DFE9B /* AppStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		962EDC79ED1A7033870445ABEDFF5EAF /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		972858A3591B7B4766FA807E73FC05E2 /* Pods_APIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_APIKit_Example.framework; path = "Pods-APIKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		972858A3591B7B4766FA807E73FC05E2 /* Pods_APIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9807BF1161D540BFB11E6CC437CCA3A0 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		98527D7196957AAB07B79E2E2AFDE23E /* IQKeyboardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManager.framework; path = IQKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98527D7196957AAB07B79E2E2AFDE23E /* IQKeyboardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98EDF6C261F2845D3DCFF97D0A54717C /* CTMediator+Config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+Config.h"; path = "CTMediatoKit/Classes/CTMediator+Config.h"; sourceTree = "<group>"; };
 		9D219373EB57FD15DDDE584D62EFB19C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		9D8F74B0857100E444AD41172B6EA6D0 /* AppStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AppStoreKit.framework; path = AppStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D8F74B0857100E444AD41172B6EA6D0 /* AppStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E274A4CEC60236203D6D2242C0BFFB3 /* SegmentFastRegisterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SegmentFastRegisterView.m; path = SegmentView/View/SegmentFastRegisterView.m; sourceTree = "<group>"; };
 		9F47AD6B98D42AC488523C2FA2E6C7F0 /* SegmentGameServiceView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SegmentGameServiceView.m; path = SegmentView/View/SegmentGameServiceView.m; sourceTree = "<group>"; };
 		A0593EDF788D0D3B7F0BB37C01253CBD /* Pods-APIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-APIKit_Example.modulemap"; sourceTree = "<group>"; };
 		A0F2A582864918678415356FB09247BD /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
 		A1345043D375FF574B8F69ADFD47340E /* SLCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A27A963524CB065B8A465D6969DD7040 /* SLWebEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SLWebEngine.framework; path = SLWebEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27A963524CB065B8A465D6969DD7040 /* SLWebEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLWebEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A29C0A1FB0955AC5C14D31CCF64B4964 /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = IQKeyboardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
 		A29C574A1C038581F3B5E396CA4AA22D /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E0C3069AF045983EE0F88CE8983887 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 		A48023BB3972B440935377C98841B1AF /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A50216B567FF1D5D5461336DE12BC4BE /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		A659853DE27C5DD5BCB9641E8A2AC253 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		A6E8080F49D5CE241AA9819BAB75BC86 /* SegmentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SegmentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -679,7 +679,7 @@
 		A8E285E7190EDB22EECDDEA10C9DA310 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		AC1CE39972B21CF17B0A92E90E3EEED6 /* CTMediator+ViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+ViewManager.h"; path = "CTMediatoKit/Classes/CTMediator+ViewManager.h"; sourceTree = "<group>"; };
 		AD7F4896181C5D61542DD1BB4241AD1C /* CTMediatoKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediatoKit.modulemap; sourceTree = "<group>"; };
-		ADD01C0F48A4751CBEA3EE9D652B01D5 /* SLCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SLCategory.framework; path = SLCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD01C0F48A4751CBEA3EE9D652B01D5 /* SLCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE294FBE51742D5E000349F0CADCDDD6 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		AE597788DD0CA7ACB29CC77945FCD80D /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
 		B1DD1A2C1B6387D2286322E86FCF2CD7 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
@@ -711,7 +711,7 @@
 		C62CA6ED4CDEE9F228CD116088D74CC5 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTitleBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.m; sourceTree = "<group>"; };
 		C75D36D3D0B6A074EF225666ACD5E70E /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUITextFieldView+Additions.m"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
 		C86AF2B0BC8B13060B2CC3D92BF1D4A4 /* SLCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SLCategory-Info.plist"; sourceTree = "<group>"; };
-		C86EFD9E5042F4DF16DD9CAB5C582C2F /* StorySDKAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StorySDKAPI.h; path = APIKit/Classes/StorySDKAPI.h; sourceTree = "<group>"; };
+		C86EFD9E5042F4DF16DD9CAB5C582C2F /* MagicWorldAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicWorldAPI.h; path = APIKit/Classes/MagicWorldAPI.h; sourceTree = "<group>"; };
 		C8F3831AD9CA0797008F23C29856B770 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
 		CB573B45113FB9B1CE662EF4960F9CE4 /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
 		CB5EA0DF3D1AA739F2E8F563A89718BD /* NSDictionary+Segment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Segment.m"; path = "SLCategory/Classes/NSDictionary+Segment.m"; sourceTree = "<group>"; };
@@ -730,7 +730,7 @@
 		D8E5281D1F2BD9230D52A675F5D569C6 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
 		D9A10CD000ED556F46AA3CCC813379E5 /* SegmentConfigMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SegmentConfigMacro.h; path = SegmentView/Macro/SegmentConfigMacro.h; sourceTree = "<group>"; };
 		DA2B1D7302EBD61154D7D76FC18F2E9C /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		DA6B61BF95EA3086DE439F44875ADEEE /* CommonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CommonKit.framework; path = CommonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6B61BF95EA3086DE439F44875ADEEE /* CommonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8817E7AF3012E0055D8D48FAEF5EA2 /* SegmentBindPhoneView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SegmentBindPhoneView.m; path = SegmentView/View/SegmentBindPhoneView.m; sourceTree = "<group>"; };
 		DA8F0F7F98693E4BDCB886055BDF642D /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIScrollView+Additions.h"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
 		DAE757341A120967549828486AB1395C /* SegmentBindPhoneView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SegmentBindPhoneView.h; path = SegmentView/View/SegmentBindPhoneView.h; sourceTree = "<group>"; };
@@ -749,7 +749,7 @@
 		E6A17B0E351F18A89D1BB5478430D807 /* AppStoreKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppStoreKit-prefix.pch"; sourceTree = "<group>"; };
 		E7A3566CB4437732C7AA1A0A323DB173 /* BaseSegmentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseSegmentView.m; path = SegmentView/View/BaseSegmentView.m; sourceTree = "<group>"; };
 		E7F246B5C3DC6E6573834EDA2FC5D721 /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyboardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
-		E92000E392BA900C3FE25F27AB97F059 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E92000E392BA900C3FE25F27AB97F059 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EA1B76EA505332C9E99CD3E36B40784B /* APIHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APIHeader.h; path = SLWebEngine/Classes/APIHeader.h; sourceTree = "<group>"; };
 		EC99133B3BEFB2B3452DFBB23087D930 /* SegmentProtocolView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SegmentProtocolView.h; path = SegmentView/View/SegmentProtocolView.h; sourceTree = "<group>"; };
 		ECCD5C9D7E611ED30710FAEB5128F6FE /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -770,13 +770,13 @@
 		FAD1F35B37DCAA98B7C6DA0DC088BF88 /* APIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APIKit.xcconfig; sourceTree = "<group>"; };
 		FAE31000BDD8BFD6B40CC09A397F4FD5 /* CTMediatoKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediatoKit.xcconfig; sourceTree = "<group>"; };
 		FBD29BB09DCF70A7969EAB00FB3EA12C /* UIView+Segment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Segment.h"; path = "SLCategory/Classes/UIView+Segment.h"; sourceTree = "<group>"; };
-		FC6B3AEC0AB4A48AEC7BED76FFE9AA07 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FC6B3AEC0AB4A48AEC7BED76FFE9AA07 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FDB3499AFFAD7440FA8FDE64545868C6 /* AppStoreKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppStoreKit.xcconfig; sourceTree = "<group>"; };
 		FE23498EEB10B07D2FE4A77002767FBF /* NSData+Segment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Segment.h"; path = "SLCategory/Classes/NSData+Segment.h"; sourceTree = "<group>"; };
 		FEB519458C33AD928E18D193491C77FE /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		FF17BE12BBEE18929D44456AE5D67031 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		FF6864524A6052E79E33A58A095FAAFE /* AppStoreKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppStoreKit-umbrella.h"; sourceTree = "<group>"; };
-		FF882A8D98F24DDB5990135312833804 /* StorySDKAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StorySDKAPI.m; path = APIKit/Classes/StorySDKAPI.m; sourceTree = "<group>"; };
+		FF882A8D98F24DDB5990135312833804 /* MagicWorldAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagicWorldAPI.m; path = APIKit/Classes/MagicWorldAPI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1133,7 +1133,6 @@
 				7E50BD32A10947A719CD7970A3DE86C5 /* Resources */,
 				7EE5A3FC093E9874955DAB309A641E2D /* Support Files */,
 			);
-			name = IQKeyboardManager;
 			path = IQKeyboardManager;
 			sourceTree = "<group>";
 		};
@@ -1176,7 +1175,6 @@
 				C4B65276BFFD4F91BD990DDC15D35B6A /* Target_APIRequestHandler.m */,
 				D7239636AD520C769676AFE14409A452 /* Support Files */,
 			);
-			name = SLWebEngine;
 			path = SLWebEngine;
 			sourceTree = "<group>";
 		};
@@ -1219,7 +1217,6 @@
 				47B475ED2752DC264DD009A16324AE89 /* View */,
 				B851839EF67411ECB11340EEC75C7653 /* Widget */,
 			);
-			name = SegmentView;
 			path = SegmentView;
 			sourceTree = "<group>";
 		};
@@ -1281,9 +1278,9 @@
 		90C5654A2B320CE14BFBAA01BA2E3849 /* APIKit */ = {
 			isa = PBXGroup;
 			children = (
-				0D64A6F61CE3DC33BD4D0154E17289F2 /* StorySDK.h */,
-				C86EFD9E5042F4DF16DD9CAB5C582C2F /* StorySDKAPI.h */,
-				FF882A8D98F24DDB5990135312833804 /* StorySDKAPI.m */,
+				0D64A6F61CE3DC33BD4D0154E17289F2 /* MagicWorld.h */,
+				C86EFD9E5042F4DF16DD9CAB5C582C2F /* MagicWorldAPI.h */,
+				FF882A8D98F24DDB5990135312833804 /* MagicWorldAPI.m */,
 				620444E182204657E8EDEE70D3662BEA /* Pod */,
 				8D335078C32FF30659D6F91E14805B08 /* Support Files */,
 			);
@@ -1352,7 +1349,6 @@
 				3CD0E939EFFEF731D9A34C59EE9EEB07 /* ViewController+MASAdditions.m */,
 				046F21B810B9C973D93069F2E8087A2E /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -1405,7 +1401,6 @@
 				11C26E22F7C47092E913C55BF2B9F9A5 /* Target_PurchaseManager.m */,
 				E353B936C4AFA9ADF8E66B7D4BDD07DF /* Support Files */,
 			);
-			name = AppStoreKit;
 			path = AppStoreKit;
 			sourceTree = "<group>";
 		};
@@ -1435,7 +1430,6 @@
 				6C50D19A3FCF636B6A58399DE6F8880C /* Macro */,
 				F8AD765FF326C39AF188B19CE864C471 /* Support Files */,
 			);
-			name = CommonKit;
 			path = CommonKit;
 			sourceTree = "<group>";
 		};
@@ -1450,7 +1444,6 @@
 				3657C36EE40B3F5A3BA501BEA6B81646 /* Support Files */,
 				349C0215B109DFE37D023AA7CD012722 /* UIKit */,
 			);
-			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -1486,7 +1479,6 @@
 				77853BBC4176F053E86A9C35D783C449 /* CTMediatorHeader.h */,
 				0EA471AB53FA650C7D4D74711AB660C0 /* Support Files */,
 			);
-			name = CTMediatoKit;
 			path = CTMediatoKit;
 			sourceTree = "<group>";
 		};
@@ -1525,7 +1517,6 @@
 				A879107417DCDE470952DF4DF7C6B799 /* UIView+Segment.m */,
 				92A9D971430A5178BE56536FFF10AD73 /* Support Files */,
 			);
-			name = SLCategory;
 			path = SLCategory;
 			sourceTree = "<group>";
 		};
@@ -1567,7 +1558,6 @@
 				128B78389D7AC6A5CE41C80B35042BBF /* CTMediator.m */,
 				21F5E3384CCE3E138F57A24961F8D10C /* Support Files */,
 			);
-			name = CTMediator;
 			path = CTMediator;
 			sourceTree = "<group>";
 		};
@@ -1649,8 +1639,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA78EA722D7559337DF55EA168B07899 /* APIKit-umbrella.h in Headers */,
-				EA6B4D60B903E8A9203D40B2B02A1795 /* StorySDK.h in Headers */,
-				33874ABA79911807228DE069B148730D /* StorySDKAPI.h in Headers */,
+				EA6B4D60B903E8A9203D40B2B02A1795 /* MagicWorld.h in Headers */,
+				33874ABA79911807228DE069B148730D /* MagicWorldAPI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2180,7 +2170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42E505AE8DFCF0355C7C44E67C55A764 /* APIKit-dummy.m in Sources */,
-				89DA79B23E0B3423B9A7B86F2A9A4CCA /* StorySDKAPI.m in Sources */,
+				89DA79B23E0B3423B9A7B86F2A9A4CCA /* MagicWorldAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2883,8 +2873,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

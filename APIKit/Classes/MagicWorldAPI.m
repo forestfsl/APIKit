@@ -1,4 +1,4 @@
-#import "StorySDKAPI.h"
+#import "MagicWorldAPI.h"
 #import "CTMediatorHeader.h"
 #import "IQKeyboardManager.h"
 #import "APIHeader.h"
@@ -34,11 +34,11 @@ NSString *const kExtend      = @"extend";
 #define k2isStringEmpty(str) ((str) == nil || [(str) isKindOfClass:[NSNull class]] || [(str) isEqual:@""])
 
 
-@implementation StorySDKAPI
+@implementation MagicWorldAPI
 
 
 + (instancetype)board_sharedAPI_storyInstance{
-    static StorySDKAPI *instance = nil;
+    static MagicWorldAPI *instance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         instance = [[self alloc]init];
